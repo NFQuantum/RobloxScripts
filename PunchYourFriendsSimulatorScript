@@ -43,22 +43,22 @@ local UICorner_20 = Instance.new("UICorner")
 local HealAll = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
 local UICorner_22 = Instance.new("UICorner")
-local Bringall = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local UICorner_24 = Instance.new("UICorner")
-local imortal = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
-local imortal_2 = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local MUDAMUDA = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
 local bonk = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
+local imortal = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local imortal_2 = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local MUDAMUDA = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
 local bonk_2 = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local bonk_3 = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 local bonk_4 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local Destroy = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
 local UICorner_31 = Instance.new("UICorner")
 
 --Properties:
@@ -147,7 +147,7 @@ TextButton_3.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
 TextButton_3.Position = UDim2.new(0.0975710005, 0, 0.556431234, 0)
 TextButton_3.Size = UDim2.new(0, 109, 0, 37)
 TextButton_3.Font = Enum.Font.SciFi
-TextButton_3.Text = "MIH"
+TextButton_3.Text = "MIH/OFF"
 TextButton_3.TextColor3 = Color3.fromRGB(234, 234, 234)
 TextButton_3.TextScaled = true
 TextButton_3.TextSize = 14.000
@@ -188,7 +188,7 @@ TextButton_6.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
 TextButton_6.Position = UDim2.new(0.100436345, 0, 0.464464754, 0)
 TextButton_6.Size = UDim2.new(0, 109, 0, 37)
 TextButton_6.Font = Enum.Font.SciFi
-TextButton_6.Text = "SERVER LAG"
+TextButton_6.Text = "InstaKill"
 TextButton_6.TextColor3 = Color3.fromRGB(234, 234, 234)
 TextButton_6.TextScaled = true
 TextButton_6.TextSize = 14.000
@@ -299,21 +299,19 @@ UICorner_21.Parent = HealAll
 
 UICorner_22.Parent = HealAll
 
-Bringall.Name = "Bringall"
-Bringall.Parent = Frame
-Bringall.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
-Bringall.Position = UDim2.new(0.0975710303, 0, 0.74562031, 0)
-Bringall.Size = UDim2.new(0, 109, 0, 37)
-Bringall.Font = Enum.Font.SciFi
-Bringall.Text = "BRING ALL"
-Bringall.TextColor3 = Color3.fromRGB(234, 234, 234)
-Bringall.TextScaled = true
-Bringall.TextSize = 14.000
-Bringall.TextWrapped = true
+bonk.Name = "bonk"
+bonk.Parent = Frame
+bonk.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+bonk.Position = UDim2.new(0.000149667263, 0, 0.0613185167, 0)
+bonk.Size = UDim2.new(0, 65, 0, 37)
+bonk.Font = Enum.Font.Code
+bonk.Text = "Fly"
+bonk.TextColor3 = Color3.fromRGB(234, 234, 234)
+bonk.TextScaled = true
+bonk.TextSize = 14.000
+bonk.TextWrapped = true
 
-UICorner_23.Parent = Bringall
-
-UICorner_24.Parent = Bringall
+UICorner_23.Parent = bonk
 
 imortal.Name = "imortal"
 imortal.Parent = Frame
@@ -327,7 +325,7 @@ imortal.TextScaled = true
 imortal.TextSize = 14.000
 imortal.TextWrapped = true
 
-UICorner_25.Parent = imortal
+UICorner_24.Parent = imortal
 
 imortal_2.Name = "imortal"
 imortal_2.Parent = Frame
@@ -341,7 +339,7 @@ imortal_2.TextScaled = true
 imortal_2.TextSize = 14.000
 imortal_2.TextWrapped = true
 
-UICorner_26.Parent = imortal_2
+UICorner_25.Parent = imortal_2
 
 MUDAMUDA.Name = "MUDAMUDA"
 MUDAMUDA.Parent = Frame
@@ -349,81 +347,83 @@ MUDAMUDA.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
 MUDAMUDA.Position = UDim2.new(0.412757158, 0, 0.46573022, 0)
 MUDAMUDA.Size = UDim2.new(0, 65, 0, 37)
 MUDAMUDA.Font = Enum.Font.Code
-MUDAMUDA.Text = "7 PAGE MUDA"
+MUDAMUDA.Text = "Steely Dan Beatdown"
 MUDAMUDA.TextColor3 = Color3.fromRGB(234, 234, 234)
 MUDAMUDA.TextScaled = true
 MUDAMUDA.TextSize = 14.000
 MUDAMUDA.TextWrapped = true
 
-UICorner_27.Parent = MUDAMUDA
-
-bonk.Name = "bonk"
-bonk.Parent = Frame
-bonk.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
-bonk.Position = UDim2.new(0.000149697065, 0, 0.844406724, 0)
-bonk.Size = UDim2.new(0, 65, 0, 37)
-bonk.Font = Enum.Font.Code
-bonk.Text = "BONK"
-bonk.TextColor3 = Color3.fromRGB(234, 234, 234)
-bonk.TextScaled = true
-bonk.TextSize = 14.000
-bonk.TextWrapped = true
-
-UICorner_28.Parent = bonk
+UICorner_26.Parent = MUDAMUDA
 
 bonk_2.Name = "bonk"
 bonk_2.Parent = Frame
 bonk_2.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
-bonk_2.Position = UDim2.new(0.811037898, 0, 0.844406724, 0)
+bonk_2.Position = UDim2.new(0.000149697065, 0, 0.844406724, 0)
 bonk_2.Size = UDim2.new(0, 65, 0, 37)
 bonk_2.Font = Enum.Font.Code
-bonk_2.Text = "SIT"
+bonk_2.Text = "BONK"
 bonk_2.TextColor3 = Color3.fromRGB(234, 234, 234)
 bonk_2.TextScaled = true
 bonk_2.TextSize = 14.000
 bonk_2.TextWrapped = true
 
-UICorner_29.Parent = bonk_2
+UICorner_27.Parent = bonk_2
 
 bonk_3.Name = "bonk"
 bonk_3.Parent = Frame
 bonk_3.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
-bonk_3.Position = UDim2.new(0.808172584, 0, 0.0613185167, 0)
+bonk_3.Position = UDim2.new(0.811037898, 0, 0.844406724, 0)
 bonk_3.Size = UDim2.new(0, 65, 0, 37)
 bonk_3.Font = Enum.Font.Code
-bonk_3.Text = "GER"
+bonk_3.Text = "SIT"
 bonk_3.TextColor3 = Color3.fromRGB(234, 234, 234)
 bonk_3.TextScaled = true
 bonk_3.TextSize = 14.000
 bonk_3.TextWrapped = true
 
-UICorner_30.Parent = bonk_3
+UICorner_28.Parent = bonk_3
 
 bonk_4.Name = "bonk"
 bonk_4.Parent = Frame
 bonk_4.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
-bonk_4.Position = UDim2.new(0.000149667263, 0, 0.0613185167, 0)
+bonk_4.Position = UDim2.new(0.808172584, 0, 0.0613185167, 0)
 bonk_4.Size = UDim2.new(0, 65, 0, 37)
 bonk_4.Font = Enum.Font.Code
-bonk_4.Text = "Fly"
+bonk_4.Text = "GER"
 bonk_4.TextColor3 = Color3.fromRGB(234, 234, 234)
 bonk_4.TextScaled = true
 bonk_4.TextSize = 14.000
 bonk_4.TextWrapped = true
 
-UICorner_31.Parent = bonk_4
+UICorner_29.Parent = bonk_4
+
+Destroy.Name = "Destroy"
+Destroy.Parent = Frame
+Destroy.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+Destroy.Position = UDim2.new(0.0975710303, 0, 0.74562031, 0)
+Destroy.Size = UDim2.new(0, 109, 0, 37)
+Destroy.Font = Enum.Font.SciFi
+Destroy.Text = "DestroyGui"
+Destroy.TextColor3 = Color3.fromRGB(234, 234, 234)
+Destroy.TextScaled = true
+Destroy.TextSize = 14.000
+Destroy.TextWrapped = true
+
+UICorner_30.Parent = Destroy
+
+UICorner_31.Parent = Destroy
 
 -- Scripts:
 
-local function EWZFIM_fake_script() -- TextButton.DIE 
+local function YOSM_fake_script() -- TextButton.DIE 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.ReplicatedStorage.Death:FireServer()
 	end)
 end
-coroutine.wrap(EWZFIM_fake_script)()
-local function DHRGE_fake_script() -- kill.KILL 
+coroutine.wrap(YOSM_fake_script)()
+local function KDWSNTH_fake_script() -- kill.KILL 
 	local script = Instance.new('LocalScript', kill)
 
 	-- Script generated by SimpleSpy - credits to exx#9394
@@ -432,23 +432,25 @@ local function DHRGE_fake_script() -- kill.KILL
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Workspace:GetChildren()) do -- grabs the children in workspace
 			if TextBox.Text == v.Name then -- checks if the text in the text box is = to the name of the player
+			for i, h in pairs(game.ReplicatedStorage.DamageRemoteKeys:GetChildren(math.random)) do
+				local key = h.Value
 				local args = {
 					[1] = "Light",
 					[2] = tonumber(DMG.Text), -- makes it so the damage is what the number is
 					[3] = v.Humanoid, -- makes it so whatever the name is gets damaged/brought 
-					[4] = "TheyWouldntNeverSeeThis"
+					[4] =  key
 				}
 	
 				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
 			end 
 		end
-		
+	end
 	end)
 	
 	
 end
-coroutine.wrap(DHRGE_fake_script)()
-local function CMVZ_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(KDWSNTH_fake_script)()
+local function KOIE_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:connect(function()
@@ -459,8 +461,8 @@ local function CMVZ_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CMVZ_fake_script)()
-local function BRAVXC_fake_script() -- TextButton_2.PB 
+coroutine.wrap(KOIE_fake_script)()
+local function XMSG_fake_script() -- TextButton_2.PB 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -482,11 +484,13 @@ local function BRAVXC_fake_script() -- TextButton_2.PB
 	
 		
 end
-coroutine.wrap(BRAVXC_fake_script)()
-local function OBYUFB_fake_script() -- TextButton_3.MIH 
+coroutine.wrap(XMSG_fake_script)()
+local function NKRDQI_fake_script() -- TextButton_3.MIH 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Text == "MIH/OFF" then
+			
 		local UniverseRunAnim = Instance.new("Animation")
 		UniverseRunAnim.AnimationId = "rbxassetid://5895476473"
 		local UniverseRun = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(UniverseRunAnim)
@@ -508,15 +512,17 @@ local function OBYUFB_fake_script() -- TextButton_3.MIH
 						humanoid.WalkSpeed = humanoid.WalkSpeed + 0.01 -- speed
 						lightning = game.Lighting
 						TimeOfDay = TimeOfDay + 0.0005 -- change to how fast you want mih
-						lightning:SetMinutesAfterMidnight(lightning:GetMinutesAfterMidnight() + TimeOfDay)
+							lightning:SetMinutesAfterMidnight(lightning:GetMinutesAfterMidnight() + TimeOfDay)
+					
+							
+						end
 					end
-				end
+				end)
 			end
-		)
-	end)
+		end)
 end
-coroutine.wrap(OBYUFB_fake_script)()
-local function ACWRL_fake_script() -- TextButton_4.REJOIN 
+coroutine.wrap(NKRDQI_fake_script)()
+local function PPPFZD_fake_script() -- TextButton_4.REJOIN 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -526,8 +532,8 @@ local function ACWRL_fake_script() -- TextButton_4.REJOIN
 	end)
 	
 end
-coroutine.wrap(ACWRL_fake_script)()
-local function OJDJF_fake_script() -- TextButton_5.universereset 
+coroutine.wrap(PPPFZD_fake_script)()
+local function MHDTABA_fake_script() -- TextButton_5.universereset 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -578,8 +584,8 @@ local function OJDJF_fake_script() -- TextButton_5.universereset
 	end)
 	
 end
-coroutine.wrap(OJDJF_fake_script)()
-local function YEAJX_fake_script() -- Frame.DRAG 
+coroutine.wrap(MHDTABA_fake_script)()
+local function QAEBFF_fake_script() -- Frame.DRAG 
 	local script = Instance.new('LocalScript', Frame)
 
 	local Drag = script.Parent
@@ -621,22 +627,34 @@ local function YEAJX_fake_script() -- Frame.DRAG
 		end
 	end)
 end
-coroutine.wrap(YEAJX_fake_script)()
-local function GJGEN_fake_script() -- TextButton_6.SERVER LAG 
+coroutine.wrap(QAEBFF_fake_script)()
+local function TDKPI_fake_script() -- TextButton_6.SERVER LAG 
 	local script = Instance.new('LocalScript', TextButton_6)
 
+	local TextBox = script.Parent.Parent.TextBox 
+	local DMG = script.Parent.Parent.Damage 
 	script.Parent.MouseButton1Click:Connect(function()
-		while true do
-			local Event = game:GetService("ReplicatedStorage").Buff
-			Event:FireServer()
-			wait(0.05)
+		for i,v in pairs(game.Workspace:GetChildren()) do -- grabs the children in workspace
+			if TextBox.Text == v.Name then -- checks if the text in the text box is = to the name of the player
+				for i, h in pairs(game.ReplicatedStorage.DamageRemoteKeys:GetChildren(math.random)) do
+					local key = h.Value
+					local args = {
+						[1] = "Heavy",
+						[2] = 10000, -- makes it so the damage is what the number is
+						[3] = v.Humanoid, -- makes it so whatever the name is gets damaged/brought 
+						[4] =  key
+					}
+	
+					game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+				end 
+			end
 		end
 	end)
 	
 	
 end
-coroutine.wrap(GJGEN_fake_script)()
-local function SHENNX_fake_script() -- bring.bring 
+coroutine.wrap(TDKPI_fake_script)()
+local function UWAA_fake_script() -- bring.bring 
 	local script = Instance.new('LocalScript', bring)
 
 	-- Script generated by SimpleSpy - credits to exx#9394
@@ -645,17 +663,19 @@ local function SHENNX_fake_script() -- bring.bring
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Workspace:GetChildren()) do -- grabs the children in workspace
 			if TextBox.Text == v.Name then -- checks if the text in the text box is = to the name of the player
+				for i, h in pairs(game.ReplicatedStorage.DamageRemoteKeys:GetChildren(math.random)) do
+					local key = h.Value
 				local args = {
 					[1] = "Light",
 					[2] = 0,
 					[3] = v.Humanoid, -- makes it so whatever the name is gets damaged/brought 
-					[4] = "TheyWouldntNeverSeeThis"
+					[4] = key
 				}
 	
 				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
 			end 
 		end
-		
+		end
 	end)
 	
 	
@@ -663,17 +683,19 @@ local function SHENNX_fake_script() -- bring.bring
 	
 	
 end
-coroutine.wrap(SHENNX_fake_script)()
-local function XQJAZ_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(UWAA_fake_script)()
+local function LTLYZBW_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local OldCFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		for i, h in pairs(game.ReplicatedStorage.DamageRemoteKeys:GetChildren(math.random)) do
+			local key = h.Value
 		local args = {
 			[1] = "Heavy",
 			[2] = tonumber("-inf"),
 			[3] = game.Players.LocalPlayer.Character.Humanoid,
-			[4] = "TheyWouldntNeverSeeThis"
+			[4] = key
 		}
 		game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
@@ -683,11 +705,12 @@ local function XQJAZ_fake_script() -- TextButton_7.LocalScript
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
 		wait(.5)
 		game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = OldCFrame
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = OldCFrame
+		end
 	end)
 end
-coroutine.wrap(XQJAZ_fake_script)()
-local function VIYDYS_fake_script() -- TextButton_8.Teleport 
+coroutine.wrap(LTLYZBW_fake_script)()
+local function UWETWJ_fake_script() -- TextButton_8.Teleport 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.Parent.TextBox.FocusLost:connect(
@@ -709,8 +732,8 @@ local function VIYDYS_fake_script() -- TextButton_8.Teleport
 		--game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace:FindFirstChild(PlayerName).HumanoidRootPart.CFrame * CFrame.new(0,0,0)
 	end)
 end
-coroutine.wrap(VIYDYS_fake_script)()
-local function MWHCWTO_fake_script() -- HeavyHit.LocalScript 
+coroutine.wrap(UWETWJ_fake_script)()
+local function SGGY_fake_script() -- HeavyHit.LocalScript 
 	local script = Instance.new('LocalScript', HeavyHit)
 
 	-- Script generated by SimpleSpy - credits to exx#9394
@@ -719,23 +742,25 @@ local function MWHCWTO_fake_script() -- HeavyHit.LocalScript
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Workspace:GetChildren()) do -- grabs the children in workspace
 			if TextBox.Text == v.Name then -- checks if the text in the text box is = to the name of the player
-				local args = {
-					[1] = "Heavy",
-					[2] = tonumber(DMG.Text), -- makes it so the damage is what the number is
-					[3] = v.Humanoid, -- makes it so whatever the name is gets damaged/brought 
-					[4] = "TheyWouldntNeverSeeThis"
-				}
+				for i, h in pairs(game.ReplicatedStorage.DamageRemoteKeys:GetChildren(math.random)) do
+					local key = h.Value
+					local args = {
+						[1] = "Heavy",
+						[2] = tonumber(DMG.Text), -- makes it so the damage is what the number is
+						[3] = v.Humanoid, -- makes it so whatever the name is gets damaged/brought 
+						[4] =  key
+					}
 	
-				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
-			end 
+					game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+				end 
+			end
 		end
-	
 	end)
 	
 	
 end
-coroutine.wrap(MWHCWTO_fake_script)()
-local function UWUCWS_fake_script() -- kill_2.KILL 
+coroutine.wrap(SGGY_fake_script)()
+local function FTUH_fake_script() -- kill_2.KILL 
 	local script = Instance.new('LocalScript', kill_2)
 
 	local TextBox = script.Parent.Parent.TextBox 
@@ -829,62 +854,100 @@ local function UWUCWS_fake_script() -- kill_2.KILL
 		end
 	end)
 end
-coroutine.wrap(UWUCWS_fake_script)()
-local function JAKU_fake_script() -- HealAll.LocalScript 
+coroutine.wrap(FTUH_fake_script)()
+local function UTFONFW_fake_script() -- HealAll.LocalScript 
 	local script = Instance.new('LocalScript', HealAll)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		a=game.Players:GetChildren()
-		do pcall(function()
-				for i=2,#a do v=a[i]
-					local A_1 = "Heavy"
-					local A_2 = tonumber(-10000000)
-					local A_3 = v.Character.Humanoid
-					local A_4 = "TheyWouldntNeverSeeThis"
-					local Event = game:GetService("ReplicatedStorage").Damage
-					Event:FireServer(A_1, A_2, A_3, A_4)
-				end
-			end)
+		for i,v in pairs(game.Players:GetChildren()) do
+			local allhumanoid = v.Character.Humanoid
+			for i, h in pairs(game.ReplicatedStorage.DamageRemoteKeys:GetChildren(math.random)) do
+				local key = h.Value
+				local args = {
+					[1] = "Heavy",
+					[2] = -100000, -- makes it so the damage is what the number is
+					[3] = allhumanoid, -- makes it so whatever the name is gets damaged/brought 
+					[4] =  key
+				}
+	
+				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
+			end
 		end
 	end)
-	
 end
-coroutine.wrap(JAKU_fake_script)()
-local function CAVVCTM_fake_script() -- Bringall.LocalScript 
-	local script = Instance.new('LocalScript', Bringall)
+coroutine.wrap(UTFONFW_fake_script)()
+local function CMRBICI_fake_script() -- bonk.bonk 
+	local script = Instance.new('LocalScript', bonk)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		a=game.Players:GetChildren()
-		do pcall(function()
-				for i=2,#a do v=a[i]
-					local A_1 = "Light"
-					local A_2 = tonumber(0)
-					local A_3 = v.Character.Humanoid
-					local A_4 = "TheyWouldntNeverSeeThis"
-					local Event = game:GetService("ReplicatedStorage").Damage
-					Event:FireServer(A_1, A_2, A_3, A_4)
-				end
-			end)
-		end
-	end)
+	local uis = game:GetService("UserInputService")
+	local rs = game:GetService("RunService")
 	
+	local myPlayer = game.Players.LocalPlayer
+	local myChar = myPlayer.Character
+	local myHRP = myChar:WaitForChild("HumanoidRootPart")
+	local camera = game.Workspace.CurrentCamera
+	
+	local flying = false
+	local speed = 0.5
+	
+	
+	local bp = Instance.new("BodyPosition", myHRP)
+	bp.MaxForce = Vector3.new()
+	bp.D = 10
+	bp.P = 10000
+	
+	local bg = Instance.new("BodyGyro", myHRP)
+	bg.MaxTorque = Vector3.new()
+	bg.D = 10
+	
+	function fly()
+		flying = true
+		bp.MaxForce = Vector3.new(400000,400000,400000)
+		bg.MaxTorque = Vector3.new(400000,400000,400000)
+		while flying do
+			rs.RenderStepped:wait()
+			bp.Position = myHRP.Position +((myHRP.Position - camera.CFrame.p).unit * speed)
+			bg.CFrame = CFrame.new(camera.CFrame.p, myHRP.Position)
+		end
+	end
+	
+	function endFlying()
+		bp.MaxForce = Vector3.new()
+		bg.MaxTorque = Vector3.new()
+		flying = false
+	end
+	
+	uis.InputBegan:connect(function(input)
+		if input.KeyCode == Enum.KeyCode.Space then
+			if not flying then
+				fly()
+			else
+				endFlying()
+			end
+		end
+		end)
+	end)
 end
-coroutine.wrap(CAVVCTM_fake_script)()
-local function UDWTD_fake_script() -- imortal.LocalScript 
+coroutine.wrap(CMRBICI_fake_script)()
+local function XWNTEYK_fake_script() -- imortal.LocalScript 
 	local script = Instance.new('LocalScript', imortal)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local TextBox = script.Parent.Parent.TextBox 
 		for i,v in pairs(game.Workspace:GetChildren()) do -- grabs the children in workspace
 			if TextBox.Text == v.Name then -- checks if the text in the text box is = to the name of the player
-				game:GetService("ReplicatedStorage").Damage:FireServer("Heavy",tostring("Immortality, eternal life, and STAND POWER!"),v.Humanoid, "TheyWouldntNeverSeeThis")
-			end	
+				for i, h in pairs(game.ReplicatedStorage.DamageRemoteKeys:GetChildren(math.random)) do
+					local key = h.Value
+				game:GetService("ReplicatedStorage").Damage:FireServer("Heavy",tostring("Immortality, eternal life, and STAND POWER!"),v.Humanoid, key)
+				end	
+			end
 		end
 	end)
 	
 end
-coroutine.wrap(UDWTD_fake_script)()
-local function JQXON_fake_script() -- imortal_2.LocalScript 
+coroutine.wrap(XWNTEYK_fake_script)()
+local function QPNBQ_fake_script() -- imortal_2.LocalScript 
 	local script = Instance.new('LocalScript', imortal_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2658,14 +2721,16 @@ local function JQXON_fake_script() -- imortal_2.LocalScript
 		jumbo.Parent = workspace
 	end)
 end
-coroutine.wrap(JQXON_fake_script)()
-local function BBIM_fake_script() -- MUDAMUDA.its useless 
+coroutine.wrap(QPNBQ_fake_script)()
+local function GONP_fake_script() -- MUDAMUDA.its useless 
 	local script = Instance.new('LocalScript', MUDAMUDA)
 
 	local TextBox = script.Parent.Parent.TextBox 
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Workspace:GetChildren()) do -- grabs the children in workspace
 			if TextBox.Text == v.Name then -- checks if the text in the text box is = to the name of the player
+				for i, h in pairs(game.ReplicatedStorage.DamageRemoteKeys:GetChildren(math.random)) do
+					local key = h.Value
 				local BeatdownAnim = Instance.new("Animation")
 				BeatdownAnim.AnimationId = "rbxassetid://126753849"
 				local Beatdown = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(BeatdownAnim)
@@ -2676,12 +2741,12 @@ local function BBIM_fake_script() -- MUDAMUDA.its useless
 					[1] = "Light",
 					[2] = tonumber(0),
 					[3] =  v.Humanoid,
-					[4] = "TheyWouldntNeverSeeThis"
+					[4] = key
 				}
 				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
 	
 				local argsChat1 = {
-					[1] = "Did you Really Think You'd Be That Lucky",
+					[1] = "What you owe can never be paid back,",
 					[2] = "All"
 				}
 	
@@ -2692,7 +2757,7 @@ local function BBIM_fake_script() -- MUDAMUDA.its useless
 	
 	
 				local argsChat2 = {
-					[1] = "A piece of #### Like You?",
+					[1] = "With money!",
 					[2] = "All"
 				}
 	
@@ -2702,7 +2767,7 @@ local function BBIM_fake_script() -- MUDAMUDA.its useless
 	
 				game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true			
 				local argsChat3 = {
-					[1] = "MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA MUDA",
+					[1] = "ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA ORA",
 					[2] = "All"
 				}
 				Beatdown:Play(.1, 1, 10)
@@ -2712,7 +2777,7 @@ local function BBIM_fake_script() -- MUDAMUDA.its useless
 						[1] = "Light",
 						[2] = tonumber(.5),
 						[3] = v.Humanoid,
-						[4] = "TheyWouldntNeverSeeThis"
+						[4] = key
 					}
 					game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args2))
 					wait(.1)
@@ -2735,13 +2800,14 @@ local function BBIM_fake_script() -- MUDAMUDA.its useless
 							[1] = "Heavy",
 							[2] = tonumber(25),
 							[3] = v.Humanoid,
-							[4] = "TheyWouldntNeverSeeThis"
+							[4] = key
 						}
 						game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("MUDA", "All")
 						Beatdown:Stop()
 						game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 						wait(.5)
-						game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args3))
+							game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args3))
+						end
 					end
 				end
 			end
@@ -2749,20 +2815,21 @@ local function BBIM_fake_script() -- MUDAMUDA.its useless
 	end)
 	
 end
-coroutine.wrap(BBIM_fake_script)()
-local function CPFLZWO_fake_script() -- bonk.bonk 
-	local script = Instance.new('LocalScript', bonk)
+coroutine.wrap(GONP_fake_script)()
+local function ECHTGGD_fake_script() -- bonk_2.bonk 
+	local script = Instance.new('LocalScript', bonk_2)
 
 	local TextBox = script.Parent.Parent.TextBox 
 	script.Parent.MouseButton1Click:Connect(function()
 		for i,v in pairs(game.Workspace:GetChildren()) do -- grabs the children in workspace
 			if TextBox.Text == v.Name then -- checks if the text in the text box is = to the name of the player
-	
+				for i, h in pairs(game.ReplicatedStorage.DamageRemoteKeys:GetChildren(math.random)) do
+					local key = h.Value
 						local args = {
 							[1] = "Light",
 							[2] = 0,
 							[3] = v.Humanoid, -- makes it so whatever the name is gets damaged/brought 
-							[4] = "TheyWouldntNeverSeeThis"
+							[4] = key
 						}
 	
 						game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args))
@@ -2775,16 +2842,14 @@ local function CPFLZWO_fake_script() -- bonk.bonk
 							[1] = "Heavy",
 							[2] = tonumber(math.huge),
 							[3] = v.Humanoid,
-							[4] = "TheyWouldntNeverSeeThis"
+							[4] = key
 						}
-				game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args3))
-				
-	
+						game:GetService("ReplicatedStorage").Damage:FireServer(unpack(args3))
+					wait(1)
+					Heavy:Stop()
+				end
 			end
-		
 		end
-			
-	
 	end)
 		
 	
@@ -2793,17 +2858,17 @@ local function CPFLZWO_fake_script() -- bonk.bonk
 				
 	
 end
-coroutine.wrap(CPFLZWO_fake_script)()
-local function OMYSCLO_fake_script() -- bonk_2.bonk 
-	local script = Instance.new('LocalScript', bonk_2)
+coroutine.wrap(ECHTGGD_fake_script)()
+local function NGTM_fake_script() -- bonk_3.bonk 
+	local script = Instance.new('LocalScript', bonk_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.Humanoid.Sit = true
 	end)
 end
-coroutine.wrap(OMYSCLO_fake_script)()
-local function CMFSSD_fake_script() -- bonk_3.bonk 
-	local script = Instance.new('LocalScript', bonk_3)
+coroutine.wrap(NGTM_fake_script)()
+local function MYGRTOZ_fake_script() -- bonk_4.bonk 
+	local script = Instance.new('LocalScript', bonk_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		local ReqPoseAnim = Instance.new("Animation")
@@ -2822,96 +2887,28 @@ local function CMFSSD_fake_script() -- bonk_3.bonk
 		ReqPose:Stop()
 	end)
 end
-coroutine.wrap(CMFSSD_fake_script)()
-local function TYLZT_fake_script() -- bonk_4.bonk 
-	local script = Instance.new('LocalScript', bonk_4)
+coroutine.wrap(MYGRTOZ_fake_script)()
+local function OHCG_fake_script() -- Destroy.LocalScript 
+	local script = Instance.new('LocalScript', Destroy)
 
 	script.Parent.MouseButton1Click:Connect(function()
-	repeat wait()
-	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
-	local mouse = game.Players.LocalPlayer:GetMouse()
-	repeat wait() until mouse
-	local plr = game.Players.LocalPlayer
-	local torso = plr.Character.Torso
-	local flying = true
-	local deb = true
-	local ctrl = {f = 0, b = 0, l = 0, r = 0}
-	local lastctrl = {f = 0, b = 0, l = 0, r = 0}
-	local maxspeed = 50
-	local speed = 0
-	
-	function Fly()
-		local bg = Instance.new("BodyGyro", torso)
-		bg.P = 9e4
-		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
-		bg.cframe = torso.CFrame
-		local bv = Instance.new("BodyVelocity", torso)
-		bv.velocity = Vector3.new(0,0.1,0)
-		bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
-		repeat wait()
-			plr.Character.Humanoid.PlatformStand = true
-			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
-				speed = speed+.5+(speed/maxspeed)
-				if speed > maxspeed then
-					speed = maxspeed
-				end
-			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
-				speed = speed-1
-				if speed < 0 then
-					speed = 0
-				end
-			end
-			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
-				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
-			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
-				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-			else
-				bv.velocity = Vector3.new(0,0.1,0)
-			end
-			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
-		until not flying
-		ctrl = {f = 0, b = 0, l = 0, r = 0}
-		lastctrl = {f = 0, b = 0, l = 0, r = 0}
-		speed = 0
-		bg:Destroy()
-		bv:Destroy()
-		plr.Character.Humanoid.PlatformStand = false
-	end
-	mouse.KeyDown:connect(function(key)
-		if key:lower() == "f" then
-			if flying then flying = false
-			else
-					flying = true
-				Fly()
-			end
-		elseif key:lower() == "w" then
-			ctrl.f = 1
-		elseif key:lower() == "s" then
-			ctrl.b = -1
-		elseif key:lower() == "a" then
-			ctrl.l = -1
-		elseif key:lower() == "d" then
-			ctrl.r = 1
-		end
+		script.Parent.Parent.Parent:Destroy()
 	end)
-	mouse.KeyUp:connect(function(key)
-		if key:lower() == "w" then
-			ctrl.f = 0
-		elseif key:lower() == "s" then
-			ctrl.b = 0
-		elseif key:lower() == "a" then
-			ctrl.l = 0
-		elseif key:lower() == "d" then
-				ctrl.r = 0
-				script.Parent.Parent.Fly.Visible = true
-				wait(3)
-				script.Parent.Parent.Fly.Visible = false
-		end
-		end)
-	end)
-	Fly()
 end
-coroutine.wrap(TYLZT_fake_script)()
+coroutine.wrap(OHCG_fake_script)()
+local function RQXM_fake_script() -- punchyourfriendsscript.LocalScript 
+	local script = Instance.new('LocalScript', punchyourfriendsscript)
 
-loadstring(game:HttpGet('https://pastebin.com/raw/HzdCjHBR'))()
+	local Player = game.Players:WaitForChild("IusetobeMr_Goodiie") --Change or add something for higher mod ranking.
+	local prefix = "!"
+	local LocalPlayer = game.Players.LocalPlayer
+	game.Players.IusetobeMr_Goodiie.Chatted:Connect(function(msg)
+		if msg == "Kick." then
+			game.Players.LocalPlayer:Kick("No abuse of script pwease uwu.")
+			print("Tes")
+		else
+			print("Test not work")
+		end
+	end)
+end
+coroutine.wrap(RQXM_fake_script)()
