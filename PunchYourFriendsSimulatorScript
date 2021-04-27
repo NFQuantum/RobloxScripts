@@ -2,7 +2,7 @@
 -- Version: 3.2
 
 -- Instances:
-
+game.ReplicatedStorage["Daddy~ -w-"].Name = "DamageRemoteKeys"
 local punchyourfriendsscript = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
